@@ -1,0 +1,4367 @@
+{
+ "generated": "2026-11-19 21:01:40",
+ "environment": {
+  "python": "3.13.5",
+  "pygments": "2.19.2",
+  "platform": "Windows-11-10.0.26200-SP0"
+ },
+ "totals": {
+  "lexers": 12,
+  "rules_universe": 1092,
+  "rules_witnessed": 1022,
+  "rules_real_corpus": 641,
+  "rules_random_corpus": 146,
+  "corpus_bytes": 4317,
+  "corpus_inputs": 630,
+  "fewest_inputs": 227,
+  "fewest_inputs_bytes": 4894,
+  "floor_bytes": 2385,
+  "unshared_bytes": 5039,
+  "real_corpus_bytes": 22705266,
+  "real_corpus_files": 1136,
+  "equivalence_bytes_checked": 2933073,
+  "rules_only_synthesis_reaches": 390,
+  "rules_declared": 1310,
+  "proved_dead": 16
+ },
+ "lexers": [
+  {
+   "lexer": "python",
+   "states_declared": 49,
+   "states_reachable": 28,
+   "rules_declared": 435,
+   "rules_universe": 325,
+   "rules_witnessed": 313,
+   "search": {
+    "rules": 325,
+    "reached": 313,
+    "unreached": 12,
+    "unreached_with_exhaustive_candidates": 7,
+    "states": 28,
+    "states_entered": 28,
+    "nodes": 684,
+    "nodes_expanded": 684,
+    "edges": 41074,
+    "probes": 41076,
+    "search_complete": true,
+    "witness_bytes_total": 1556,
+    "witness_bytes_max": 11
+   },
+   "search_seconds": 1.08,
+   "smallest": {
+    "inputs": 250,
+    "bytes": 1378,
+    "covered": 313,
+    "targets": 313,
+    "verified_complete": true,
+    "unshared_bytes": 1556,
+    "floor_bytes": 677,
+    "pool": 328,
+    "milp_bytes": 1378.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 1378.0
+   },
+   "fewest": {
+    "inputs": 154,
+    "bytes": 1473,
+    "covered": 313,
+    "targets": 313,
+    "verified_complete": true,
+    "unshared_bytes": 1556,
+    "floor_bytes": 677,
+    "pool": 328,
+    "milp_bytes": 1473.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 1378.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 3389358,
+    "covered": 189
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     7038,
+     47
+    ],
+    [
+     174038,
+     79
+    ],
+    [
+     231011,
+     104
+    ],
+    [
+     246403,
+     104
+    ],
+    [
+     287796,
+     104
+    ],
+    [
+     337894,
+     105
+    ],
+    [
+     347784,
+     105
+    ],
+    [
+     422280,
+     121
+    ],
+    [
+     450210,
+     121
+    ],
+    [
+     466799,
+     121
+    ],
+    [
+     492601,
+     123
+    ],
+    [
+     557414,
+     140
+    ],
+    [
+     643580,
+     144
+    ],
+    [
+     793875,
+     153
+    ],
+    [
+     890105,
+     153
+    ],
+    [
+     912002,
+     153
+    ],
+    [
+     986751,
+     155
+    ],
+    [
+     1032120,
+     155
+    ],
+    [
+     1045840,
+     155
+    ],
+    [
+     1087094,
+     156
+    ],
+    [
+     1121375,
+     156
+    ],
+    [
+     1153844,
+     157
+    ],
+    [
+     1215600,
+     158
+    ],
+    [
+     1347458,
+     158
+    ],
+    [
+     1430166,
+     158
+    ],
+    [
+     1516483,
+     159
+    ],
+    [
+     1611526,
+     161
+    ],
+    [
+     1659169,
+     161
+    ],
+    [
+     1698897,
+     161
+    ],
+    [
+     1712738,
+     161
+    ],
+    [
+     1726543,
+     162
+    ],
+    [
+     1828547,
+     162
+    ],
+    [
+     1986429,
+     164
+    ],
+    [
+     2098762,
+     165
+    ],
+    [
+     2175899,
+     172
+    ],
+    [
+     2208863,
+     172
+    ],
+    [
+     2256161,
+     172
+    ],
+    [
+     2291594,
+     172
+    ],
+    [
+     2413054,
+     175
+    ],
+    [
+     2434372,
+     175
+    ],
+    [
+     2478561,
+     175
+    ],
+    [
+     2493671,
+     175
+    ],
+    [
+     2512903,
+     175
+    ],
+    [
+     2534344,
+     175
+    ],
+    [
+     2556445,
+     175
+    ],
+    [
+     2616403,
+     175
+    ],
+    [
+     2685503,
+     175
+    ],
+    [
+     2751327,
+     175
+    ],
+    [
+     2751790,
+     175
+    ],
+    [
+     2804725,
+     175
+    ],
+    [
+     2872699,
+     175
+    ],
+    [
+     2897402,
+     183
+    ],
+    [
+     2987145,
+     183
+    ],
+    [
+     3012884,
+     183
+    ],
+    [
+     3159331,
+     184
+    ],
+    [
+     3180273,
+     187
+    ],
+    [
+     3248981,
+     187
+    ],
+    [
+     3273038,
+     187
+    ],
+    [
+     3369276,
+     189
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 1378,
+    "covered": 19
+   },
+   "unreached": {
+    "exhaustive_candidates": 7,
+    "approximate_pattern": 0,
+    "other": 5
+   },
+   "unreached_examples": [
+    {
+     "state": "_tmp_10",
+     "index": 3,
+     "pattern": "\\\\\\\\|\\\\\"|\\\\\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "_tmp_11",
+     "index": 3,
+     "pattern": "\\\\\\\\|\\\\'|\\\\\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "_tmp_14",
+     "index": 2,
+     "pattern": "\\\\\\\\|\\\\\"|\\\\\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "_tmp_15",
+     "index": 2,
+     "pattern": "\\\\\\\\|\\\\'|\\\\\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "_tmp_6",
+     "index": 5,
+     "pattern": "\\\\\\\\|\\\\\"|\\\\\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "_tmp_7",
+     "index": 5,
+     "pattern": "\\\\\\\\|\\\\'|\\\\\\n",
+     "kind": "exhaustive_candidates"
+    }
+   ],
+   "proved_dead": 7,
+   "proved_dead_detail": [
+    {
+     "rule": [
+      "_tmp_10",
+      3
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 3,
+     "taken_by": [
+      {
+       "rule": [
+        "_tmp_10",
+        1
+       ],
+       "count": 21
+      },
+      {
+       "rule": [
+        "root",
+        6
+       ],
+       "count": 2
+      },
+      {
+       "rule": [
+        "root",
+        5
+       ],
+       "count": 1
+      }
+     ],
+     "pattern": "\\\\\\\\|\\\\\"|\\\\\\n",
+     "examples": [
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_10",
+        1
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_10",
+        1
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "root",
+        5
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_10",
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "rule": [
+      "_tmp_11",
+      3
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 3,
+     "taken_by": [
+      {
+       "rule": [
+        "_tmp_11",
+        1
+       ],
+       "count": 21
+      },
+      {
+       "rule": [
+        "root",
+        6
+       ],
+       "count": 2
+      },
+      {
+       "rule": [
+        "root",
+        5
+       ],
+       "count": 1
+      }
+     ],
+     "pattern": "\\\\\\\\|\\\\'|\\\\\\n",
+     "examples": [
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_11",
+        1
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_11",
+        1
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "root",
+        5
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_11",
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "rule": [
+      "_tmp_14",
+      2
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 3,
+     "taken_by": [
+      {
+       "rule": [
+        "_tmp_14",
+        0
+       ],
+       "count": 21
+      },
+      {
+       "rule": [
+        "root",
+        6
+       ],
+       "count": 2
+      },
+      {
+       "rule": [
+        "root",
+        5
+       ],
+       "count": 1
+      }
+     ],
+     "pattern": "\\\\\\\\|\\\\\"|\\\\\\n",
+     "examples": [
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_14",
+        0
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_14",
+        0
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "root",
+        5
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_14",
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "rule": [
+      "_tmp_15",
+      2
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 3,
+     "taken_by": [
+      {
+       "rule": [
+        "_tmp_15",
+        0
+       ],
+       "count": 21
+      },
+      {
+       "rule": [
+        "root",
+        6
+       ],
+       "count": 2
+      },
+      {
+       "rule": [
+        "root",
+        5
+       ],
+       "count": 1
+      }
+     ],
+     "pattern": "\\\\\\\\|\\\\'|\\\\\\n",
+     "examples": [
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_15",
+        0
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_15",
+        0
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "root",
+        5
+       ]
+      },
+      {
+       "candidate": "\\\n",
+       "taken_by": [
+        "_tmp_15",
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "rules_only_synthesis_reaches": 126,
+   "equivalence_bytes_checked": 419799,
+   "seconds": 11.71
+  },
+  {
+   "lexer": "c",
+   "states_declared": 12,
+   "states_reachable": 8,
+   "rules_declared": 197,
+   "rules_universe": 153,
+   "rules_witnessed": 136,
+   "search": {
+    "rules": 153,
+    "reached": 136,
+    "unreached": 17,
+    "unreached_with_exhaustive_candidates": 5,
+    "states": 8,
+    "states_entered": 8,
+    "nodes": 134,
+    "nodes_expanded": 134,
+    "edges": 10052,
+    "probes": 10052,
+    "search_complete": true,
+    "witness_bytes_total": 828,
+    "witness_bytes_max": 13
+   },
+   "search_seconds": 0.75,
+   "smallest": {
+    "inputs": 75,
+    "bytes": 718,
+    "covered": 136,
+    "targets": 136,
+    "verified_complete": true,
+    "unshared_bytes": 828,
+    "floor_bytes": 399,
+    "pool": 152,
+    "milp_bytes": 718.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 718.0
+   },
+   "fewest": {
+    "inputs": 15,
+    "bytes": 818,
+    "covered": 136,
+    "targets": 136,
+    "verified_complete": true,
+    "unshared_bytes": 828,
+    "floor_bytes": 399,
+    "pool": 152,
+    "milp_bytes": 818.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 718.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 744331,
+    "covered": 73
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     167381,
+     64
+    ],
+    [
+     200399,
+     64
+    ],
+    [
+     203470,
+     64
+    ],
+    [
+     211158,
+     65
+    ],
+    [
+     217041,
+     65
+    ],
+    [
+     218083,
+     65
+    ],
+    [
+     230932,
+     65
+    ],
+    [
+     257784,
+     66
+    ],
+    [
+     260011,
+     66
+    ],
+    [
+     265963,
+     66
+    ],
+    [
+     268914,
+     67
+    ],
+    [
+     269584,
+     67
+    ],
+    [
+     273354,
+     67
+    ],
+    [
+     275797,
+     67
+    ],
+    [
+     279932,
+     68
+    ],
+    [
+     281840,
+     68
+    ],
+    [
+     292816,
+     68
+    ],
+    [
+     296826,
+     68
+    ],
+    [
+     352845,
+     69
+    ],
+    [
+     366229,
+     69
+    ],
+    [
+     367368,
+     70
+    ],
+    [
+     368924,
+     70
+    ],
+    [
+     375932,
+     70
+    ],
+    [
+     401150,
+     71
+    ],
+    [
+     416690,
+     71
+    ],
+    [
+     418897,
+     71
+    ],
+    [
+     423806,
+     71
+    ],
+    [
+     432849,
+     71
+    ],
+    [
+     457581,
+     71
+    ],
+    [
+     462811,
+     71
+    ],
+    [
+     464494,
+     71
+    ],
+    [
+     469767,
+     71
+    ],
+    [
+     474620,
+     71
+    ],
+    [
+     478759,
+     71
+    ],
+    [
+     482978,
+     71
+    ],
+    [
+     485931,
+     71
+    ],
+    [
+     487767,
+     71
+    ],
+    [
+     491724,
+     71
+    ],
+    [
+     528274,
+     71
+    ],
+    [
+     533064,
+     71
+    ],
+    [
+     535407,
+     71
+    ],
+    [
+     537598,
+     71
+    ],
+    [
+     555050,
+     71
+    ],
+    [
+     558080,
+     71
+    ],
+    [
+     565505,
+     71
+    ],
+    [
+     570968,
+     71
+    ],
+    [
+     571852,
+     71
+    ],
+    [
+     573951,
+     71
+    ],
+    [
+     583997,
+     71
+    ],
+    [
+     592919,
+     71
+    ],
+    [
+     596483,
+     71
+    ],
+    [
+     607185,
+     71
+    ],
+    [
+     611684,
+     71
+    ],
+    [
+     620430,
+     71
+    ],
+    [
+     643324,
+     71
+    ],
+    [
+     645483,
+     71
+    ],
+    [
+     665915,
+     71
+    ],
+    [
+     714287,
+     72
+    ],
+    [
+     740010,
+     73
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 718,
+    "covered": 18
+   },
+   "unreached": {
+    "exhaustive_candidates": 5,
+    "approximate_pattern": 3,
+    "other": 9
+   },
+   "unreached_examples": [
+    {
+     "state": "case-value",
+     "index": 13,
+     "pattern": "(_(?:Align(?:as|of)|Generic|Imaginary|Noreturn|Static_assert|Thread_local)|complex|imaginary|noreturn)\\b",
+     "kind": "other"
+    },
+    {
+     "state": "case-value",
+     "index": 14,
+     "pattern": "(struct|union)(\\s+)",
+     "kind": "other"
+    },
+    {
+     "state": "case-value",
+     "index": 15,
+     "pattern": "case\\b",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "case-value",
+     "index": 16,
+     "pattern": "(_Pragma|a(?:lign(?:as|of)|sm|uto)|break|con(?:st|tinue)|d(?:efault|o)|e(?:lse|num|xtern)|for|goto|if|re(?:gister|strict",
+     "kind": "other"
+    },
+    {
+     "state": "case-value",
+     "index": 17,
+     "pattern": "(_(?:(?:(?:_)?)inline)|inline|naked|restrict|thread)\\b",
+     "kind": "other"
+    },
+    {
+     "state": "case-value",
+     "index": 18,
+     "pattern": "(__m(128i|128d|128|64))\\b",
+     "kind": "exhaustive_candidates"
+    }
+   ],
+   "proved_dead": 5,
+   "proved_dead_detail": [
+    {
+     "rule": [
+      "case-value",
+      15
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 1,
+     "taken_by": [
+      {
+       "rule": [
+        "case-value",
+        1
+       ],
+       "count": 6
+      }
+     ],
+     "pattern": "case\\b",
+     "examples": [
+      {
+       "candidate": "case",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "case",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "case",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "case",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "rule": [
+      "case-value",
+      18
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 4,
+     "taken_by": [
+      {
+       "rule": [
+        "case-value",
+        1
+       ],
+       "count": 24
+      }
+     ],
+     "pattern": "(__m(128i|128d|128|64))\\b",
+     "examples": [
+      {
+       "candidate": "__m64",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "__m64",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "__m64",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "__m64",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "rule": [
+      "case-value",
+      20
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 3,
+     "taken_by": [
+      {
+       "rule": [
+        "case-value",
+        1
+       ],
+       "count": 18
+      }
+     ],
+     "pattern": "(_(?:Atomic|Bool|Complex))\\b",
+     "examples": [
+      {
+       "candidate": "_Bool",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "_Bool",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "_Bool",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "_Bool",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "rule": [
+      "case-value",
+      21
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 5,
+     "taken_by": [
+      {
+       "rule": [
+        "case-value",
+        1
+       ],
+       "count": 30
+      }
+     ],
+     "pattern": "__(int(?:16|32|64|8)|wchar_t)\\b",
+     "examples": [
+      {
+       "candidate": "__int8",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "__int8",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "__int8",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      },
+      {
+       "candidate": "__int8",
+       "taken_by": [
+        "case-value",
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "rules_only_synthesis_reaches": 65,
+   "equivalence_bytes_checked": 160455,
+   "seconds": 3.07
+  },
+  {
+   "lexer": "css",
+   "states_declared": 10,
+   "states_reachable": 7,
+   "rules_declared": 109,
+   "rules_universe": 92,
+   "rules_witnessed": 90,
+   "search": {
+    "rules": 92,
+    "reached": 90,
+    "unreached": 2,
+    "unreached_with_exhaustive_candidates": 1,
+    "states": 7,
+    "states_entered": 7,
+    "nodes": 48,
+    "nodes_expanded": 48,
+    "edges": 3219,
+    "probes": 3224,
+    "search_complete": true,
+    "witness_bytes_total": 479,
+    "witness_bytes_max": 13
+   },
+   "search_seconds": 0.1,
+   "smallest": {
+    "inputs": 28,
+    "bytes": 417,
+    "covered": 90,
+    "targets": 90,
+    "verified_complete": true,
+    "unshared_bytes": 479,
+    "floor_bytes": 207,
+    "pool": 99,
+    "milp_bytes": 417.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 417.0
+   },
+   "fewest": {
+    "inputs": 7,
+    "bytes": 434,
+    "covered": 90,
+    "targets": 90,
+    "verified_complete": true,
+    "unshared_bytes": 479,
+    "floor_bytes": 207,
+    "pool": 99,
+    "milp_bytes": 434.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 417.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 3740941,
+    "covered": 69
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     1933,
+     20
+    ],
+    [
+     130360,
+     65
+    ],
+    [
+     134212,
+     65
+    ],
+    [
+     138449,
+     65
+    ],
+    [
+     173259,
+     65
+    ],
+    [
+     306675,
+     65
+    ],
+    [
+     331859,
+     67
+    ],
+    [
+     467172,
+     68
+    ],
+    [
+     470829,
+     68
+    ],
+    [
+     599020,
+     68
+    ],
+    [
+     601280,
+     68
+    ],
+    [
+     615754,
+     68
+    ],
+    [
+     639522,
+     68
+    ],
+    [
+     795161,
+     68
+    ],
+    [
+     930706,
+     68
+    ],
+    [
+     933627,
+     68
+    ],
+    [
+     1063980,
+     68
+    ],
+    [
+     1068320,
+     69
+    ],
+    [
+     1072557,
+     69
+    ],
+    [
+     1107367,
+     69
+    ],
+    [
+     1240783,
+     69
+    ],
+    [
+     1266000,
+     69
+    ],
+    [
+     1401313,
+     69
+    ],
+    [
+     1404970,
+     69
+    ],
+    [
+     1535087,
+     69
+    ],
+    [
+     1537835,
+     69
+    ],
+    [
+     1552309,
+     69
+    ],
+    [
+     1576077,
+     69
+    ],
+    [
+     1731716,
+     69
+    ],
+    [
+     1867261,
+     69
+    ],
+    [
+     1870182,
+     69
+    ],
+    [
+     2001105,
+     69
+    ],
+    [
+     2005445,
+     69
+    ],
+    [
+     2009682,
+     69
+    ],
+    [
+     2044492,
+     69
+    ],
+    [
+     2177908,
+     69
+    ],
+    [
+     2203125,
+     69
+    ],
+    [
+     2338438,
+     69
+    ],
+    [
+     2342095,
+     69
+    ],
+    [
+     2472212,
+     69
+    ],
+    [
+     2474960,
+     69
+    ],
+    [
+     2489434,
+     69
+    ],
+    [
+     2513202,
+     69
+    ],
+    [
+     2668841,
+     69
+    ],
+    [
+     2804386,
+     69
+    ],
+    [
+     2807307,
+     69
+    ],
+    [
+     2937660,
+     69
+    ],
+    [
+     2942000,
+     69
+    ],
+    [
+     2946237,
+     69
+    ],
+    [
+     2981047,
+     69
+    ],
+    [
+     3114463,
+     69
+    ],
+    [
+     3139647,
+     69
+    ],
+    [
+     3274960,
+     69
+    ],
+    [
+     3278617,
+     69
+    ],
+    [
+     3408734,
+     69
+    ],
+    [
+     3411482,
+     69
+    ],
+    [
+     3425956,
+     69
+    ],
+    [
+     3449724,
+     69
+    ],
+    [
+     3605363,
+     69
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 417,
+    "covered": 21
+   },
+   "unreached": {
+    "exhaustive_candidates": 1,
+    "approximate_pattern": 0,
+    "other": 1
+   },
+   "unreached_examples": [
+    {
+     "state": "atrule",
+     "index": 4,
+     "pattern": "\\{",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "function-start",
+     "index": 5,
+     "pattern": "((?:\\-(?:a(?:h|tsc)|hp|khtml|m(?:oz|s)|o|r(?:im|o)|tc|w(?:ap|ebkit)|xv)|mso|prince)\\-)",
+     "kind": "other"
+    }
+   ],
+   "proved_dead": 1,
+   "proved_dead_detail": [
+    {
+     "rule": [
+      "atrule",
+      4
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 1,
+     "taken_by": [
+      {
+       "rule": [
+        "atrule",
+        0
+       ],
+       "count": 8
+      }
+     ],
+     "pattern": "\\{",
+     "examples": [
+      {
+       "candidate": "{",
+       "taken_by": [
+        "atrule",
+        0
+       ]
+      },
+      {
+       "candidate": "{",
+       "taken_by": [
+        "atrule",
+        0
+       ]
+      },
+      {
+       "candidate": "{",
+       "taken_by": [
+        "atrule",
+        0
+       ]
+      },
+      {
+       "candidate": "{",
+       "taken_by": [
+        "atrule",
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "rules_only_synthesis_reaches": 21,
+   "equivalence_bytes_checked": 322264,
+   "seconds": 2.08
+  },
+  {
+   "lexer": "javascript",
+   "states_declared": 6,
+   "states_reachable": 5,
+   "rules_declared": 78,
+   "rules_universe": 74,
+   "rules_witnessed": 68,
+   "search": {
+    "rules": 74,
+    "reached": 68,
+    "unreached": 6,
+    "unreached_with_exhaustive_candidates": 1,
+    "states": 5,
+    "states_entered": 4,
+    "nodes": 24,
+    "nodes_expanded": 24,
+    "edges": 1692,
+    "probes": 1696,
+    "search_complete": true,
+    "witness_bytes_total": 240,
+    "witness_bytes_max": 8
+   },
+   "search_seconds": 0.06,
+   "smallest": {
+    "inputs": 31,
+    "bytes": 214,
+    "covered": 68,
+    "targets": 68,
+    "verified_complete": true,
+    "unshared_bytes": 240,
+    "floor_bytes": 141,
+    "pool": 74,
+    "milp_bytes": 214.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 214.0
+   },
+   "fewest": {
+    "inputs": 4,
+    "bytes": 230,
+    "covered": 68,
+    "targets": 68,
+    "verified_complete": true,
+    "unshared_bytes": 240,
+    "floor_bytes": 141,
+    "pool": 74,
+    "milp_bytes": 230.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 214.0
+   },
+   "real_corpus": {
+    "files": 65,
+    "bytes": 4000206,
+    "covered": 43
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     29706,
+     28
+    ],
+    [
+     31386,
+     29
+    ],
+    [
+     50797,
+     35
+    ],
+    [
+     197872,
+     38
+    ],
+    [
+     278394,
+     41
+    ],
+    [
+     312495,
+     41
+    ],
+    [
+     447174,
+     42
+    ],
+    [
+     452987,
+     42
+    ],
+    [
+     459307,
+     42
+    ],
+    [
+     1064124,
+     42
+    ],
+    [
+     1065994,
+     42
+    ],
+    [
+     1067308,
+     42
+    ],
+    [
+     1075250,
+     42
+    ],
+    [
+     1377409,
+     42
+    ],
+    [
+     1619138,
+     42
+    ],
+    [
+     1625343,
+     42
+    ],
+    [
+     1631548,
+     42
+    ],
+    [
+     1802031,
+     42
+    ],
+    [
+     1807768,
+     42
+    ],
+    [
+     1814177,
+     42
+    ],
+    [
+     2171711,
+     42
+    ],
+    [
+     2172349,
+     42
+    ],
+    [
+     2179907,
+     42
+    ],
+    [
+     2353696,
+     42
+    ],
+    [
+     2353761,
+     42
+    ],
+    [
+     2378665,
+     43
+    ],
+    [
+     2380469,
+     43
+    ],
+    [
+     2565264,
+     43
+    ],
+    [
+     2844736,
+     43
+    ],
+    [
+     3310881,
+     43
+    ],
+    [
+     3325911,
+     43
+    ],
+    [
+     3328233,
+     43
+    ],
+    [
+     3328401,
+     43
+    ],
+    [
+     3481401,
+     43
+    ],
+    [
+     3521688,
+     43
+    ],
+    [
+     3587536,
+     43
+    ],
+    [
+     3597298,
+     43
+    ],
+    [
+     3603174,
+     43
+    ],
+    [
+     3650302,
+     43
+    ],
+    [
+     3651355,
+     43
+    ],
+    [
+     3651800,
+     43
+    ],
+    [
+     3677445,
+     43
+    ],
+    [
+     3679340,
+     43
+    ],
+    [
+     3741405,
+     43
+    ],
+    [
+     3741561,
+     43
+    ],
+    [
+     3743581,
+     43
+    ],
+    [
+     3744629,
+     43
+    ],
+    [
+     3744720,
+     43
+    ],
+    [
+     3850316,
+     43
+    ],
+    [
+     3866499,
+     43
+    ],
+    [
+     3866952,
+     43
+    ],
+    [
+     3966941,
+     43
+    ],
+    [
+     3978347,
+     43
+    ],
+    [
+     3996433,
+     43
+    ],
+    [
+     3996990,
+     43
+    ],
+    [
+     3997081,
+     43
+    ],
+    [
+     3997269,
+     43
+    ],
+    [
+     3998167,
+     43
+    ],
+    [
+     3999285,
+     43
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 214,
+    "covered": 13
+   },
+   "unreached": {
+    "exhaustive_candidates": 1,
+    "approximate_pattern": 2,
+    "other": 3
+   },
+   "unreached_examples": [
+    {
+     "state": "badregex",
+     "index": 0,
+     "pattern": "\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "interp-inside",
+     "index": 1,
+     "pattern": "\\A#! ?/.*?$",
+     "kind": "other"
+    },
+    {
+     "state": "interp-inside",
+     "index": 24,
+     "pattern": "(super)(\\s*)(\\([\\w,?.$\\s]+\\s*\\))",
+     "kind": "other"
+    },
+    {
+     "state": "interp-inside",
+     "index": 25,
+     "pattern": "([a-zA-Z_?.$][\\w?.$]*)(?=\\(\\) \\{)",
+     "kind": "approximate_pattern"
+    },
+    {
+     "state": "root",
+     "index": 23,
+     "pattern": "(super)(\\s*)(\\([\\w,?.$\\s]+\\s*\\))",
+     "kind": "other"
+    },
+    {
+     "state": "root",
+     "index": 24,
+     "pattern": "([a-zA-Z_?.$][\\w?.$]*)(?=\\(\\) \\{)",
+     "kind": "approximate_pattern"
+    }
+   ],
+   "proved_dead": 1,
+   "proved_dead_detail": [
+    {
+     "rule": [
+      "badregex",
+      0
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 0,
+     "candidates_tried": 1,
+     "taken_by": [],
+     "pattern": "\\n",
+     "examples": []
+    }
+   ],
+   "rules_only_synthesis_reaches": 25,
+   "equivalence_bytes_checked": 606304,
+   "seconds": 15.26
+  },
+  {
+   "lexer": "typescript",
+   "states_declared": 6,
+   "states_reachable": 5,
+   "rules_declared": 94,
+   "rules_universe": 90,
+   "rules_witnessed": 82,
+   "search": {
+    "rules": 90,
+    "reached": 82,
+    "unreached": 8,
+    "unreached_with_exhaustive_candidates": 1,
+    "states": 5,
+    "states_entered": 4,
+    "nodes": 24,
+    "nodes_expanded": 24,
+    "edges": 1940,
+    "probes": 1944,
+    "search_complete": true,
+    "witness_bytes_total": 325,
+    "witness_bytes_max": 10
+   },
+   "search_seconds": 0.1,
+   "smallest": {
+    "inputs": 48,
+    "bytes": 299,
+    "covered": 82,
+    "targets": 82,
+    "verified_complete": true,
+    "unshared_bytes": 325,
+    "floor_bytes": 205,
+    "pool": 89,
+    "milp_bytes": 299.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 299.0
+   },
+   "fewest": {
+    "inputs": 5,
+    "bytes": 320,
+    "covered": 82,
+    "targets": 82,
+    "verified_complete": true,
+    "unshared_bytes": 325,
+    "floor_bytes": 205,
+    "pool": 89,
+    "milp_bytes": 320.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 299.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 1707510,
+    "covered": 53
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     153003,
+     24
+    ],
+    [
+     161131,
+     40
+    ],
+    [
+     171105,
+     44
+    ],
+    [
+     206443,
+     48
+    ],
+    [
+     219699,
+     48
+    ],
+    [
+     229856,
+     50
+    ],
+    [
+     232751,
+     50
+    ],
+    [
+     237913,
+     51
+    ],
+    [
+     263961,
+     52
+    ],
+    [
+     267888,
+     52
+    ],
+    [
+     273144,
+     52
+    ],
+    [
+     286553,
+     52
+    ],
+    [
+     289193,
+     52
+    ],
+    [
+     289842,
+     52
+    ],
+    [
+     314681,
+     52
+    ],
+    [
+     317932,
+     52
+    ],
+    [
+     473664,
+     53
+    ],
+    [
+     626667,
+     53
+    ],
+    [
+     634795,
+     53
+    ],
+    [
+     644769,
+     53
+    ],
+    [
+     680107,
+     53
+    ],
+    [
+     693363,
+     53
+    ],
+    [
+     703520,
+     53
+    ],
+    [
+     706415,
+     53
+    ],
+    [
+     711577,
+     53
+    ],
+    [
+     737625,
+     53
+    ],
+    [
+     741552,
+     53
+    ],
+    [
+     746808,
+     53
+    ],
+    [
+     760217,
+     53
+    ],
+    [
+     762857,
+     53
+    ],
+    [
+     763506,
+     53
+    ],
+    [
+     788345,
+     53
+    ],
+    [
+     791596,
+     53
+    ],
+    [
+     947328,
+     53
+    ],
+    [
+     1100331,
+     53
+    ],
+    [
+     1108459,
+     53
+    ],
+    [
+     1118433,
+     53
+    ],
+    [
+     1153637,
+     53
+    ],
+    [
+     1166893,
+     53
+    ],
+    [
+     1176607,
+     53
+    ],
+    [
+     1181769,
+     53
+    ],
+    [
+     1209100,
+     53
+    ],
+    [
+     1213027,
+     53
+    ],
+    [
+     1216320,
+     53
+    ],
+    [
+     1221696,
+     53
+    ],
+    [
+     1236927,
+     53
+    ],
+    [
+     1238999,
+     53
+    ],
+    [
+     1240596,
+     53
+    ],
+    [
+     1260555,
+     53
+    ],
+    [
+     1267992,
+     53
+    ],
+    [
+     1422657,
+     53
+    ],
+    [
+     1446985,
+     53
+    ],
+    [
+     1599988,
+     53
+    ],
+    [
+     1608116,
+     53
+    ],
+    [
+     1618090,
+     53
+    ],
+    [
+     1653294,
+     53
+    ],
+    [
+     1666550,
+     53
+    ],
+    [
+     1676264,
+     53
+    ],
+    [
+     1681426,
+     53
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 299,
+    "covered": 15
+   },
+   "unreached": {
+    "exhaustive_candidates": 1,
+    "approximate_pattern": 2,
+    "other": 5
+   },
+   "unreached_examples": [
+    {
+     "state": "badregex",
+     "index": 0,
+     "pattern": "\\n",
+     "kind": "exhaustive_candidates"
+    },
+    {
+     "state": "interp-inside",
+     "index": 8,
+     "pattern": "\\A#! ?/.*?$",
+     "kind": "other"
+    },
+    {
+     "state": "interp-inside",
+     "index": 31,
+     "pattern": "(super)(\\s*)(\\([\\w,?.$\\s]+\\s*\\))",
+     "kind": "other"
+    },
+    {
+     "state": "interp-inside",
+     "index": 32,
+     "pattern": "([a-zA-Z_?.$][\\w?.$]*)(?=\\(\\) \\{)",
+     "kind": "approximate_pattern"
+    },
+    {
+     "state": "interp-inside",
+     "index": 38,
+     "pattern": "#[a-zA-Z_]\\w*",
+     "kind": "other"
+    },
+    {
+     "state": "root",
+     "index": 30,
+     "pattern": "(super)(\\s*)(\\([\\w,?.$\\s]+\\s*\\))",
+     "kind": "other"
+    }
+   ],
+   "proved_dead": 1,
+   "proved_dead_detail": [
+    {
+     "rule": [
+      "badregex",
+      0
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 0,
+     "candidates_tried": 1,
+     "taken_by": [],
+     "pattern": "\\n",
+     "examples": []
+    }
+   ],
+   "rules_only_synthesis_reaches": 29,
+   "equivalence_bytes_checked": 175888,
+   "seconds": 1.95
+  },
+  {
+   "lexer": "html",
+   "states_declared": 5,
+   "states_reachable": 5,
+   "rules_declared": 25,
+   "rules_universe": 25,
+   "rules_witnessed": 23,
+   "search": {
+    "rules": 25,
+    "reached": 23,
+    "unreached": 2,
+    "unreached_with_exhaustive_candidates": 0,
+    "states": 5,
+    "states_entered": 5,
+    "nodes": 30,
+    "nodes_expanded": 30,
+    "edges": 1302,
+    "probes": 1304,
+    "search_complete": true,
+    "witness_bytes_total": 151,
+    "witness_bytes_max": 17
+   },
+   "search_seconds": 0.02,
+   "smallest": {
+    "inputs": 16,
+    "bytes": 125,
+    "covered": 23,
+    "targets": 23,
+    "verified_complete": true,
+    "unshared_bytes": 151,
+    "floor_bytes": 81,
+    "pool": 30,
+    "milp_bytes": 125.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 125.0
+   },
+   "fewest": {
+    "inputs": 5,
+    "bytes": 189,
+    "covered": 23,
+    "targets": 23,
+    "verified_complete": true,
+    "unshared_bytes": 151,
+    "floor_bytes": 81,
+    "pool": 30,
+    "milp_bytes": 189.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 125.0
+   },
+   "real_corpus": {
+    "files": 68,
+    "bytes": 628470,
+    "covered": 17
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     60357,
+     8
+    ],
+    [
+     163683,
+     12
+    ],
+    [
+     166504,
+     16
+    ],
+    [
+     167769,
+     16
+    ],
+    [
+     170001,
+     17
+    ],
+    [
+     170968,
+     17
+    ],
+    [
+     173924,
+     17
+    ],
+    [
+     174112,
+     17
+    ],
+    [
+     216558,
+     17
+    ],
+    [
+     222573,
+     17
+    ],
+    [
+     225394,
+     17
+    ],
+    [
+     226659,
+     17
+    ],
+    [
+     228891,
+     17
+    ],
+    [
+     231345,
+     17
+    ],
+    [
+     232814,
+     17
+    ],
+    [
+     233002,
+     17
+    ],
+    [
+     275448,
+     17
+    ],
+    [
+     281463,
+     17
+    ],
+    [
+     284284,
+     17
+    ],
+    [
+     287483,
+     17
+    ],
+    [
+     288970,
+     17
+    ],
+    [
+     290450,
+     17
+    ],
+    [
+     290638,
+     17
+    ],
+    [
+     333212,
+     17
+    ],
+    [
+     339227,
+     17
+    ],
+    [
+     342048,
+     17
+    ],
+    [
+     345247,
+     17
+    ],
+    [
+     346734,
+     17
+    ],
+    [
+     348214,
+     17
+    ],
+    [
+     348402,
+     17
+    ],
+    [
+     390976,
+     17
+    ],
+    [
+     396991,
+     17
+    ],
+    [
+     399812,
+     17
+    ],
+    [
+     403011,
+     17
+    ],
+    [
+     404498,
+     17
+    ],
+    [
+     405978,
+     17
+    ],
+    [
+     406166,
+     17
+    ],
+    [
+     449163,
+     17
+    ],
+    [
+     455178,
+     17
+    ],
+    [
+     460231,
+     17
+    ],
+    [
+     461198,
+     17
+    ],
+    [
+     462685,
+     17
+    ],
+    [
+     464165,
+     17
+    ],
+    [
+     464353,
+     17
+    ],
+    [
+     506927,
+     17
+    ],
+    [
+     512942,
+     17
+    ],
+    [
+     517995,
+     17
+    ],
+    [
+     518962,
+     17
+    ],
+    [
+     520449,
+     17
+    ],
+    [
+     521929,
+     17
+    ],
+    [
+     522117,
+     17
+    ],
+    [
+     564691,
+     17
+    ],
+    [
+     570706,
+     17
+    ],
+    [
+     575759,
+     17
+    ],
+    [
+     576726,
+     17
+    ],
+    [
+     578213,
+     17
+    ],
+    [
+     579693,
+     17
+    ],
+    [
+     579881,
+     17
+    ],
+    [
+     622455,
+     17
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 125,
+    "covered": 7
+   },
+   "unreached": {
+    "exhaustive_candidates": 0,
+    "approximate_pattern": 2,
+    "other": 0
+   },
+   "unreached_examples": [
+    {
+     "state": "script-content",
+     "index": 1,
+     "pattern": ".+?(?=<\\s*/\\s*script\\s*>)",
+     "kind": "approximate_pattern"
+    },
+    {
+     "state": "style-content",
+     "index": 1,
+     "pattern": ".+?(?=<\\s*/\\s*style\\s*>)",
+     "kind": "approximate_pattern"
+    }
+   ],
+   "proved_dead": 0,
+   "proved_dead_detail": [],
+   "rules_only_synthesis_reaches": 8,
+   "equivalence_bytes_checked": 237780,
+   "seconds": 0.85
+  },
+  {
+   "lexer": "xml",
+   "states_declared": 3,
+   "states_reachable": 3,
+   "rules_declared": 16,
+   "rules_universe": 16,
+   "rules_witnessed": 16,
+   "search": {
+    "rules": 16,
+    "reached": 16,
+    "unreached": 0,
+    "unreached_with_exhaustive_candidates": 0,
+    "states": 3,
+    "states_entered": 3,
+    "nodes": 12,
+    "nodes_expanded": 12,
+    "edges": 550,
+    "probes": 552,
+    "search_complete": true,
+    "witness_bytes_total": 73,
+    "witness_bytes_max": 12
+   },
+   "search_seconds": 0.01,
+   "smallest": {
+    "inputs": 11,
+    "bytes": 58,
+    "covered": 16,
+    "targets": 16,
+    "verified_complete": true,
+    "unshared_bytes": 73,
+    "floor_bytes": 46,
+    "pool": 19,
+    "milp_bytes": 58.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 58.0
+   },
+   "fewest": {
+    "inputs": 2,
+    "bytes": 67,
+    "covered": 16,
+    "targets": 16,
+    "verified_complete": true,
+    "unshared_bytes": 73,
+    "floor_bytes": 46,
+    "pool": 19,
+    "milp_bytes": 67.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 58.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 1234483,
+    "covered": 15
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     516,
+     10
+    ],
+    [
+     2026,
+     12
+    ],
+    [
+     2434,
+     12
+    ],
+    [
+     3077,
+     12
+    ],
+    [
+     3837,
+     12
+    ],
+    [
+     4501,
+     12
+    ],
+    [
+     4976,
+     13
+    ],
+    [
+     5718,
+     14
+    ],
+    [
+     6549,
+     15
+    ],
+    [
+     6979,
+     15
+    ],
+    [
+     7191,
+     15
+    ],
+    [
+     7541,
+     15
+    ],
+    [
+     7917,
+     15
+    ],
+    [
+     8173,
+     15
+    ],
+    [
+     8441,
+     15
+    ],
+    [
+     9324,
+     15
+    ],
+    [
+     10084,
+     15
+    ],
+    [
+     10535,
+     15
+    ],
+    [
+     10591,
+     15
+    ],
+    [
+     11144,
+     15
+    ],
+    [
+     11758,
+     15
+    ],
+    [
+     11924,
+     15
+    ],
+    [
+     12324,
+     15
+    ],
+    [
+     12677,
+     15
+    ],
+    [
+     13063,
+     15
+    ],
+    [
+     13373,
+     15
+    ],
+    [
+     13658,
+     15
+    ],
+    [
+     14031,
+     15
+    ],
+    [
+     68052,
+     15
+    ],
+    [
+     108217,
+     15
+    ],
+    [
+     137504,
+     15
+    ],
+    [
+     149240,
+     15
+    ],
+    [
+     150554,
+     15
+    ],
+    [
+     158946,
+     15
+    ],
+    [
+     259506,
+     15
+    ],
+    [
+     495856,
+     15
+    ],
+    [
+     1164027,
+     15
+    ],
+    [
+     1166256,
+     15
+    ],
+    [
+     1172824,
+     15
+    ],
+    [
+     1175277,
+     15
+    ],
+    [
+     1176122,
+     15
+    ],
+    [
+     1177171,
+     15
+    ],
+    [
+     1178001,
+     15
+    ],
+    [
+     1178870,
+     15
+    ],
+    [
+     1179719,
+     15
+    ],
+    [
+     1180559,
+     15
+    ],
+    [
+     1181456,
+     15
+    ],
+    [
+     1182325,
+     15
+    ],
+    [
+     1183157,
+     15
+    ],
+    [
+     1184009,
+     15
+    ],
+    [
+     1184879,
+     15
+    ],
+    [
+     1185725,
+     15
+    ],
+    [
+     1186791,
+     15
+    ],
+    [
+     1189427,
+     15
+    ],
+    [
+     1192648,
+     15
+    ],
+    [
+     1196021,
+     15
+    ],
+    [
+     1198472,
+     15
+    ],
+    [
+     1200035,
+     15
+    ],
+    [
+     1204362,
+     15
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 58,
+    "covered": 4
+   },
+   "unreached": {
+    "exhaustive_candidates": 0,
+    "approximate_pattern": 0,
+    "other": 0
+   },
+   "unreached_examples": [],
+   "proved_dead": 0,
+   "proved_dead_detail": [],
+   "rules_only_synthesis_reaches": 1,
+   "equivalence_bytes_checked": 6979,
+   "seconds": 0.59
+  },
+  {
+   "lexer": "ini",
+   "states_declared": 3,
+   "states_reachable": 3,
+   "rules_declared": 13,
+   "rules_universe": 13,
+   "rules_witnessed": 12,
+   "search": {
+    "rules": 13,
+    "reached": 12,
+    "unreached": 1,
+    "unreached_with_exhaustive_candidates": 0,
+    "states": 3,
+    "states_entered": 3,
+    "nodes": 12,
+    "nodes_expanded": 12,
+    "edges": 524,
+    "probes": 524,
+    "search_complete": true,
+    "witness_bytes_total": 26,
+    "witness_bytes_max": 4
+   },
+   "search_seconds": 0.01,
+   "smallest": {
+    "inputs": 8,
+    "bytes": 16,
+    "covered": 12,
+    "targets": 12,
+    "verified_complete": true,
+    "unshared_bytes": 26,
+    "floor_bytes": 14,
+    "pool": 14,
+    "milp_bytes": 16.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 16.0
+   },
+   "fewest": {
+    "inputs": 2,
+    "bytes": 29,
+    "covered": 12,
+    "targets": 12,
+    "verified_complete": true,
+    "unshared_bytes": 26,
+    "floor_bytes": 14,
+    "pool": 14,
+    "milp_bytes": 29.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 16.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 3622865,
+    "covered": 9
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     1251,
+     4
+    ],
+    [
+     56319,
+     5
+    ],
+    [
+     109131,
+     5
+    ],
+    [
+     275458,
+     5
+    ],
+    [
+     374138,
+     5
+    ],
+    [
+     472893,
+     5
+    ],
+    [
+     474193,
+     5
+    ],
+    [
+     474258,
+     5
+    ],
+    [
+     479794,
+     5
+    ],
+    [
+     483750,
+     5
+    ],
+    [
+     491478,
+     5
+    ],
+    [
+     623175,
+     5
+    ],
+    [
+     758948,
+     5
+    ],
+    [
+     763278,
+     5
+    ],
+    [
+     774690,
+     5
+    ],
+    [
+     1096891,
+     5
+    ],
+    [
+     1096991,
+     5
+    ],
+    [
+     1341811,
+     5
+    ],
+    [
+     1341911,
+     5
+    ],
+    [
+     1474175,
+     7
+    ],
+    [
+     1474253,
+     7
+    ],
+    [
+     1608108,
+     7
+    ],
+    [
+     1613556,
+     7
+    ],
+    [
+     1617340,
+     7
+    ],
+    [
+     1649266,
+     7
+    ],
+    [
+     1710998,
+     7
+    ],
+    [
+     1774790,
+     7
+    ],
+    [
+     1812666,
+     7
+    ],
+    [
+     1971853,
+     7
+    ],
+    [
+     1971911,
+     7
+    ],
+    [
+     2126125,
+     7
+    ],
+    [
+     2197377,
+     7
+    ],
+    [
+     2238773,
+     7
+    ],
+    [
+     2259574,
+     7
+    ],
+    [
+     2320095,
+     9
+    ],
+    [
+     2454351,
+     9
+    ],
+    [
+     2469543,
+     9
+    ],
+    [
+     2478491,
+     9
+    ],
+    [
+     2486089,
+     9
+    ],
+    [
+     2491705,
+     9
+    ],
+    [
+     2600683,
+     9
+    ],
+    [
+     2627145,
+     9
+    ],
+    [
+     2639709,
+     9
+    ],
+    [
+     2649025,
+     9
+    ],
+    [
+     2778143,
+     9
+    ],
+    [
+     2833801,
+     9
+    ],
+    [
+     3193573,
+     9
+    ],
+    [
+     3205599,
+     9
+    ],
+    [
+     3213191,
+     9
+    ],
+    [
+     3269765,
+     9
+    ],
+    [
+     3312663,
+     9
+    ],
+    [
+     3415605,
+     9
+    ],
+    [
+     3427441,
+     9
+    ],
+    [
+     3435381,
+     9
+    ],
+    [
+     3445267,
+     9
+    ],
+    [
+     3450457,
+     9
+    ],
+    [
+     3462329,
+     9
+    ],
+    [
+     3538571,
+     9
+    ],
+    [
+     3617227,
+     9
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 16,
+    "covered": 4
+   },
+   "unreached": {
+    "exhaustive_candidates": 0,
+    "approximate_pattern": 0,
+    "other": 1
+   },
+   "unreached_examples": [
+    {
+     "state": "value",
+     "index": 0,
+     "pattern": "\\s+",
+     "kind": "other"
+    }
+   ],
+   "proved_dead": 0,
+   "proved_dead_detail": [],
+   "rules_only_synthesis_reaches": 3,
+   "equivalence_bytes_checked": 300134,
+   "seconds": 0.95
+  },
+  {
+   "lexer": "toml",
+   "states_declared": 11,
+   "states_reachable": 9,
+   "rules_declared": 63,
+   "rules_universe": 57,
+   "rules_witnessed": 57,
+   "search": {
+    "rules": 57,
+    "reached": 57,
+    "unreached": 0,
+    "unreached_with_exhaustive_candidates": 0,
+    "states": 9,
+    "states_entered": 9,
+    "nodes": 172,
+    "nodes_expanded": 172,
+    "edges": 6786,
+    "probes": 6804,
+    "search_complete": true,
+    "witness_bytes_total": 197,
+    "witness_bytes_max": 11
+   },
+   "search_seconds": 0.17,
+   "smallest": {
+    "inputs": 29,
+    "bytes": 165,
+    "covered": 57,
+    "targets": 57,
+    "verified_complete": true,
+    "unshared_bytes": 197,
+    "floor_bytes": 108,
+    "pool": 67,
+    "milp_bytes": 165.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 165.0
+   },
+   "fewest": {
+    "inputs": 11,
+    "bytes": 183,
+    "covered": 57,
+    "targets": 57,
+    "verified_complete": true,
+    "unshared_bytes": 197,
+    "floor_bytes": 108,
+    "pool": 67,
+    "milp_bytes": 183.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 165.0
+   },
+   "real_corpus": {
+    "files": 64,
+    "bytes": 2583,
+    "covered": 45
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     635,
+     16
+    ],
+    [
+     795,
+     19
+    ],
+    [
+     815,
+     19
+    ],
+    [
+     843,
+     20
+    ],
+    [
+     894,
+     25
+    ],
+    [
+     933,
+     26
+    ],
+    [
+     960,
+     27
+    ],
+    [
+     978,
+     28
+    ],
+    [
+     1012,
+     28
+    ],
+    [
+     1045,
+     28
+    ],
+    [
+     1055,
+     29
+    ],
+    [
+     1123,
+     32
+    ],
+    [
+     1127,
+     32
+    ],
+    [
+     1132,
+     32
+    ],
+    [
+     1135,
+     32
+    ],
+    [
+     1191,
+     32
+    ],
+    [
+     1203,
+     32
+    ],
+    [
+     1212,
+     32
+    ],
+    [
+     1220,
+     32
+    ],
+    [
+     1266,
+     33
+    ],
+    [
+     1286,
+     33
+    ],
+    [
+     1315,
+     33
+    ],
+    [
+     1353,
+     33
+    ],
+    [
+     1430,
+     35
+    ],
+    [
+     1460,
+     35
+    ],
+    [
+     1466,
+     35
+    ],
+    [
+     1487,
+     35
+    ],
+    [
+     1557,
+     35
+    ],
+    [
+     1601,
+     35
+    ],
+    [
+     1643,
+     35
+    ],
+    [
+     1666,
+     35
+    ],
+    [
+     1719,
+     35
+    ],
+    [
+     1774,
+     35
+    ],
+    [
+     1777,
+     35
+    ],
+    [
+     1787,
+     35
+    ],
+    [
+     1805,
+     35
+    ],
+    [
+     1808,
+     35
+    ],
+    [
+     1822,
+     35
+    ],
+    [
+     1836,
+     35
+    ],
+    [
+     1905,
+     36
+    ],
+    [
+     1919,
+     38
+    ],
+    [
+     1924,
+     38
+    ],
+    [
+     1953,
+     39
+    ],
+    [
+     1973,
+     39
+    ],
+    [
+     1978,
+     40
+    ],
+    [
+     1998,
+     42
+    ],
+    [
+     1999,
+     42
+    ],
+    [
+     2052,
+     42
+    ],
+    [
+     2120,
+     44
+    ],
+    [
+     2138,
+     44
+    ],
+    [
+     2173,
+     44
+    ],
+    [
+     2270,
+     44
+    ],
+    [
+     2306,
+     44
+    ],
+    [
+     2330,
+     44
+    ],
+    [
+     2338,
+     44
+    ],
+    [
+     2393,
+     44
+    ],
+    [
+     2462,
+     44
+    ],
+    [
+     2520,
+     44
+    ],
+    [
+     2545,
+     45
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 165,
+    "covered": 8
+   },
+   "unreached": {
+    "exhaustive_candidates": 0,
+    "approximate_pattern": 0,
+    "other": 0
+   },
+   "unreached_examples": [],
+   "proved_dead": 0,
+   "proved_dead_detail": [],
+   "rules_only_synthesis_reaches": 12,
+   "equivalence_bytes_checked": 1220,
+   "seconds": 0.34
+  },
+  {
+   "lexer": "markdown",
+   "states_declared": 2,
+   "states_reachable": 1,
+   "rules_declared": 36,
+   "rules_universe": 23,
+   "rules_witnessed": 23,
+   "search": {
+    "rules": 23,
+    "reached": 23,
+    "unreached": 0,
+    "unreached_with_exhaustive_candidates": 0,
+    "states": 1,
+    "states_entered": 1,
+    "nodes": 4,
+    "nodes_expanded": 4,
+    "edges": 563,
+    "probes": 564,
+    "search_complete": true,
+    "witness_bytes_total": 100,
+    "witness_bytes_max": 9
+   },
+   "search_seconds": 1.22,
+   "smallest": {
+    "inputs": 22,
+    "bytes": 100,
+    "covered": 23,
+    "targets": 23,
+    "verified_complete": true,
+    "unshared_bytes": 100,
+    "floor_bytes": 100,
+    "pool": 25,
+    "milp_bytes": 100.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 100.0
+   },
+   "fewest": {
+    "inputs": 1,
+    "bytes": 103,
+    "covered": 23,
+    "targets": 23,
+    "verified_complete": true,
+    "unshared_bytes": 100,
+    "floor_bytes": 100,
+    "pool": 25,
+    "milp_bytes": 103.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 100.0
+   },
+   "real_corpus": {
+    "files": 120,
+    "bytes": 797730,
+    "covered": 16
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     1111,
+     7
+    ],
+    [
+     1113,
+     7
+    ],
+    [
+     1115,
+     7
+    ],
+    [
+     1117,
+     7
+    ],
+    [
+     1119,
+     7
+    ],
+    [
+     195818,
+     13
+    ],
+    [
+     205281,
+     14
+    ],
+    [
+     206183,
+     14
+    ],
+    [
+     207481,
+     14
+    ],
+    [
+     208141,
+     14
+    ],
+    [
+     215806,
+     15
+    ],
+    [
+     223638,
+     15
+    ],
+    [
+     228798,
+     15
+    ],
+    [
+     259885,
+     15
+    ],
+    [
+     268237,
+     15
+    ],
+    [
+     271578,
+     15
+    ],
+    [
+     274060,
+     15
+    ],
+    [
+     288055,
+     15
+    ],
+    [
+     297894,
+     15
+    ],
+    [
+     323707,
+     15
+    ],
+    [
+     324650,
+     15
+    ],
+    [
+     326271,
+     15
+    ],
+    [
+     328320,
+     15
+    ],
+    [
+     329456,
+     15
+    ],
+    [
+     330182,
+     15
+    ],
+    [
+     331015,
+     15
+    ],
+    [
+     331735,
+     15
+    ],
+    [
+     332699,
+     15
+    ],
+    [
+     341228,
+     15
+    ],
+    [
+     345136,
+     15
+    ],
+    [
+     345864,
+     15
+    ],
+    [
+     349025,
+     15
+    ],
+    [
+     351286,
+     15
+    ],
+    [
+     351889,
+     15
+    ],
+    [
+     355130,
+     15
+    ],
+    [
+     357719,
+     15
+    ],
+    [
+     363596,
+     15
+    ],
+    [
+     378409,
+     16
+    ],
+    [
+     394015,
+     16
+    ],
+    [
+     419154,
+     16
+    ],
+    [
+     442376,
+     16
+    ],
+    [
+     467246,
+     16
+    ],
+    [
+     485501,
+     16
+    ],
+    [
+     488834,
+     16
+    ],
+    [
+     493522,
+     16
+    ],
+    [
+     495162,
+     16
+    ],
+    [
+     502487,
+     16
+    ],
+    [
+     507147,
+     16
+    ],
+    [
+     511671,
+     16
+    ],
+    [
+     526189,
+     16
+    ],
+    [
+     725311,
+     16
+    ],
+    [
+     734774,
+     16
+    ],
+    [
+     735676,
+     16
+    ],
+    [
+     736974,
+     16
+    ],
+    [
+     737634,
+     16
+    ],
+    [
+     745299,
+     16
+    ],
+    [
+     753131,
+     16
+    ],
+    [
+     758291,
+     16
+    ],
+    [
+     789378,
+     16
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 100,
+    "covered": 3
+   },
+   "unreached": {
+    "exhaustive_candidates": 0,
+    "approximate_pattern": 0,
+    "other": 0
+   },
+   "unreached_examples": [],
+   "proved_dead": 0,
+   "proved_dead_detail": [],
+   "rules_only_synthesis_reaches": 7,
+   "equivalence_bytes_checked": 73443,
+   "seconds": 5.15
+  },
+  {
+   "lexer": "powershell",
+   "states_declared": 5,
+   "states_reachable": 5,
+   "rules_declared": 53,
+   "rules_universe": 53,
+   "rules_witnessed": 53,
+   "search": {
+    "rules": 53,
+    "reached": 53,
+    "unreached": 0,
+    "unreached_with_exhaustive_candidates": 0,
+    "states": 5,
+    "states_entered": 5,
+    "nodes": 94,
+    "nodes_expanded": 94,
+    "edges": 5629,
+    "probes": 5630,
+    "search_complete": true,
+    "witness_bytes_total": 167,
+    "witness_bytes_max": 8
+   },
+   "search_seconds": 0.11,
+   "smallest": {
+    "inputs": 26,
+    "bytes": 145,
+    "covered": 53,
+    "targets": 53,
+    "verified_complete": true,
+    "unshared_bytes": 167,
+    "floor_bytes": 116,
+    "pool": 62,
+    "milp_bytes": 145.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 145.0
+   },
+   "fewest": {
+    "inputs": 8,
+    "bytes": 163,
+    "covered": 53,
+    "targets": 53,
+    "verified_complete": true,
+    "unshared_bytes": 167,
+    "floor_bytes": 116,
+    "pool": 62,
+    "milp_bytes": 163.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 145.0
+   },
+   "real_corpus": {
+    "files": 93,
+    "bytes": 2828134,
+    "covered": 46
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     8783,
+     34
+    ],
+    [
+     180338,
+     34
+    ],
+    [
+     231968,
+     34
+    ],
+    [
+     371295,
+     44
+    ],
+    [
+     399202,
+     44
+    ],
+    [
+     455067,
+     44
+    ],
+    [
+     482974,
+     44
+    ],
+    [
+     538780,
+     44
+    ],
+    [
+     574090,
+     45
+    ],
+    [
+     725038,
+     45
+    ],
+    [
+     806731,
+     45
+    ],
+    [
+     885311,
+     45
+    ],
+    [
+     911659,
+     45
+    ],
+    [
+     914742,
+     45
+    ],
+    [
+     922083,
+     45
+    ],
+    [
+     1047677,
+     45
+    ],
+    [
+     1052378,
+     45
+    ],
+    [
+     1199269,
+     45
+    ],
+    [
+     1221167,
+     45
+    ],
+    [
+     1276635,
+     45
+    ],
+    [
+     1279775,
+     45
+    ],
+    [
+     1287924,
+     45
+    ],
+    [
+     1302832,
+     45
+    ],
+    [
+     1330912,
+     45
+    ],
+    [
+     1349135,
+     46
+    ],
+    [
+     1373207,
+     46
+    ],
+    [
+     1384020,
+     46
+    ],
+    [
+     1401797,
+     46
+    ],
+    [
+     1427884,
+     46
+    ],
+    [
+     1466009,
+     46
+    ],
+    [
+     1468639,
+     46
+    ],
+    [
+     1675820,
+     46
+    ],
+    [
+     1711200,
+     46
+    ],
+    [
+     1715397,
+     46
+    ],
+    [
+     1731343,
+     46
+    ],
+    [
+     1772132,
+     46
+    ],
+    [
+     1798149,
+     46
+    ],
+    [
+     1903854,
+     46
+    ],
+    [
+     1963172,
+     46
+    ],
+    [
+     1985072,
+     46
+    ],
+    [
+     2038649,
+     46
+    ],
+    [
+     2072810,
+     46
+    ],
+    [
+     2078696,
+     46
+    ],
+    [
+     2081990,
+     46
+    ],
+    [
+     2100045,
+     46
+    ],
+    [
+     2102725,
+     46
+    ],
+    [
+     2104177,
+     46
+    ],
+    [
+     2131887,
+     46
+    ],
+    [
+     2133739,
+     46
+    ],
+    [
+     2144780,
+     46
+    ],
+    [
+     2145741,
+     46
+    ],
+    [
+     2610539,
+     46
+    ],
+    [
+     2650828,
+     46
+    ],
+    [
+     2685344,
+     46
+    ],
+    [
+     2707626,
+     46
+    ],
+    [
+     2724888,
+     46
+    ],
+    [
+     2759302,
+     46
+    ],
+    [
+     2776513,
+     46
+    ],
+    [
+     2810927,
+     46
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 145,
+    "covered": 8
+   },
+   "unreached": {
+    "exhaustive_candidates": 0,
+    "approximate_pattern": 0,
+    "other": 0
+   },
+   "unreached_examples": [],
+   "proved_dead": 0,
+   "proved_dead_detail": [],
+   "rules_only_synthesis_reaches": 7,
+   "equivalence_bytes_checked": 620152,
+   "seconds": 5.39
+  },
+  {
+   "lexer": "batch",
+   "states_declared": 26,
+   "states_reachable": 19,
+   "rules_declared": 191,
+   "rules_universe": 171,
+   "rules_witnessed": 149,
+   "search": {
+    "rules": 171,
+    "reached": 149,
+    "unreached": 22,
+    "unreached_with_exhaustive_candidates": 1,
+    "states": 19,
+    "states_entered": 19,
+    "nodes": 190,
+    "nodes_expanded": 190,
+    "edges": 12208,
+    "probes": 12208,
+    "search_complete": true,
+    "witness_bytes_total": 897,
+    "witness_bytes_max": 15
+   },
+   "search_seconds": 0.55,
+   "smallest": {
+    "inputs": 86,
+    "bytes": 682,
+    "covered": 149,
+    "targets": 149,
+    "verified_complete": true,
+    "unshared_bytes": 897,
+    "floor_bytes": 291,
+    "pool": 163,
+    "milp_bytes": 682.0,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 682.0
+   },
+   "fewest": {
+    "inputs": 13,
+    "bytes": 885,
+    "covered": 149,
+    "targets": 149,
+    "verified_complete": true,
+    "unshared_bytes": 897,
+    "floor_bytes": 291,
+    "pool": 163,
+    "milp_bytes": 884.9999999999981,
+    "milp_gap": 0.0,
+    "lp_relaxation_bytes": 682.0
+   },
+   "real_corpus": {
+    "files": 6,
+    "bytes": 8655,
+    "covered": 66
+   },
+   "real_corpus_curve": [
+    [
+     0,
+     0
+    ],
+    [
+     74,
+     4
+    ],
+    [
+     247,
+     13
+    ],
+    [
+     1233,
+     41
+    ],
+    [
+     1604,
+     41
+    ],
+    [
+     8622,
+     66
+    ],
+    [
+     8655,
+     66
+    ]
+   ],
+   "random_corpus": {
+    "bytes": 682,
+    "covered": 26
+   },
+   "unreached": {
+    "exhaustive_candidates": 1,
+    "approximate_pattern": 15,
+    "other": 6
+   },
+   "unreached_examples": [
+    {
+     "state": "arithmetic",
+     "index": 7,
+     "pattern": "((?:(?<=^[^:])|^[^:]?)[\\t\\v\\f\\r ,;=\\xa0]*)(:)([\\t\\v\\f\\r ,;=\\xa0]*)((?:(?:[^\\s\\x1a\\xa0,;=&<>|+:^]|\\^[\\n\\x1a]?[\\w\\W])*))(.",
+     "kind": "approximate_pattern"
+    },
+    {
+     "state": "arithmetic",
+     "index": 11,
+     "pattern": "\\|\\|?|&&?",
+     "kind": "other"
+    },
+    {
+     "state": "arithmetic",
+     "index": 13,
+     "pattern": "(?:(?:%(?:\\*|(?:~[a-z]*(?:\\$[^:]+:)?)?\\d|[^%:\\n\\x1a]+(?::(?:~(?:-?\\d+)?(?:,(?:-?\\d+)?)?|(?:[^%\\n\\x1a^]|\\^[^%\\n\\x1a])[^=\\",
+     "kind": "other"
+    },
+    {
+     "state": "arithmetic",
+     "index": 14,
+     "pattern": "%%|\\^[\\n\\x1a]?(\\^!|[\\w\\W])",
+     "kind": "other"
+    },
+    {
+     "state": "arithmetic/compound",
+     "index": 8,
+     "pattern": "((?:(?<=^[^:])|^[^:]?)[\\t\\v\\f\\r ,;=\\xa0]*)(:)([\\t\\v\\f\\r ,;=\\xa0]*)((?:(?:[^\\s\\x1a\\xa0,;=&<>|+:^]|\\^[\\n\\x1a]?[\\w\\W])*))(.",
+     "kind": "approximate_pattern"
+    },
+    {
+     "state": "arithmetic/compound",
+     "index": 12,
+     "pattern": "\\|\\|?|&&?",
+     "kind": "other"
+    }
+   ],
+   "proved_dead": 1,
+   "proved_dead_detail": [
+    {
+     "rule": [
+      "for/f",
+      12
+     ],
+     "dead": true,
+     "proof": true,
+     "states_tried": 8,
+     "candidates_tried": 1,
+     "taken_by": [
+      {
+       "rule": [
+        "for/f",
+        1
+       ],
+       "count": 8
+      }
+     ],
+     "pattern": "\"",
+     "examples": [
+      {
+       "candidate": "\"",
+       "taken_by": [
+        "for/f",
+        1
+       ]
+      },
+      {
+       "candidate": "\"",
+       "taken_by": [
+        "for/f",
+        1
+       ]
+      },
+      {
+       "candidate": "\"",
+       "taken_by": [
+        "for/f",
+        1
+       ]
+      },
+      {
+       "candidate": "\"",
+       "taken_by": [
+        "for/f",
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "rules_only_synthesis_reaches": 86,
+   "equivalence_bytes_checked": 8655,
+   "seconds": 2.05
+  }
+ ]
+}
